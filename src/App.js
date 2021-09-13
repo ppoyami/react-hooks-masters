@@ -1,9 +1,11 @@
-import Previous from '@/components/Previous';
+// import Previous from '@/components/Previous';
+import Dropdown from '@/components/Dropdown';
 
 export default function App() {
   return (
-    <div>
-      <Previous />
+    <div className="flex-center h-screen">
+      {/* <Previous /> */}
+      <Dropdown />
     </div>
   );
 }
