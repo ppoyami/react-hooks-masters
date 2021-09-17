@@ -3,7 +3,8 @@
 // import CheckList from '@/components/CheckList';
 // import ToggleButton from '@/components/ToggleButton';
 // import SaveCheckbox from '@/components/SaveCheckbox';
-import Searchbar from '@/components/Searchbar';
+// import Searchbar from '@/components/Searchbar';
+import Mounted from '@/components/Mounted';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <CheckList /> */}
       {/* <ToggleButton /> */}
       {/* <SaveCheckbox /> */}
-      <Searchbar />
+      {/* <Searchbar /> */}
+      <Mounted />
     </div>
   );
 }
